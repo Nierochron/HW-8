@@ -1,22 +1,73 @@
-.text-box h3:first-of-type {
+/*                1 task                       */
+.text-box h3:first-child{
     color: pink;
 }
-.text-box p:nth-of-type(2) {
-    color: grey;
+#greycol{
+    color: gray;
 }
-.text-box div p:first-of-type{
+.text-box div p{
     color: red;
 }
-.text-box p:nth-of-type(3) {
+.text-box p:nth-of-type(3){
     color: green;
 }
-.text-box p:nth-of-type(4) {
+.yellow{
     color: yellow;
 }
-.list:nth-child(odd){
+/*                2 task                       */
+.title{
+    font-size: 35px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+.monday{
+    color: red;
+}
+.tuesday{
+    color: green;
+}
+.wednesday{
+    color: yellow;
+}
+.thursday{
+    color: blue;
+}
+.friday{
+    color: gray;
+}
+.lesson:nth-last-of-type(odd){
+    color: blueviolet;
+}
+.lesson:nth-last-of-type(even){
     color: rgb(255, 0, 0);
 }
-.list:nth-child(even){
-    color: rgb(255, 255, 0);
+.monday:hover{
+    color: rgb(0, 0, 0);
 }
-
+.monday:active{
+    color: skyblue;
+}
+/*              other               */
+.ss:focus{
+    color: red;
+    background-color: black;
+}
+button{
+    font-size: 30px;
+}
+.link:visited{
+    color: rgb(255, 0, 0);
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+}
+.rr:enabled{
+    color: fuchsia;
+}
+.color:nth-last-of-type(1){
+    color: green;
+}
